@@ -27,7 +27,6 @@ private:
     GraphNode *_currentNode;
     ChatBot *_chatBot;
     ChatBotPanelDialog *_panelDialog;
-    std::vector<GraphEdge *> _edges;
 
     // proprietary type definitions
     typedef std::vector<std::pair<std::string, std::string>> tokenlist;
